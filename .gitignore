@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VS Code and other editor config files
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Pytest and coverage
+htmlcov/
+.coverage
+.pytest_cache/
+.cache/
+
+# Jupyter (if using)
+.ipynb_checkpoints/
