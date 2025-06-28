@@ -20,7 +20,7 @@ setup:
 
 run:
 	@echo "Running Flask app..."
-	@. venv/bin/activate && flask --app helloworld run || { echo "Flask failed to run"; exit 1; }
+	@. venv/bin/activate && flask --app example run || { echo "Flask failed to run"; exit 1; }
 
 # Remove venv
 clean:
